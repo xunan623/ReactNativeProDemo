@@ -19,6 +19,7 @@ export default class ReactNativeDemo extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
           \doubi xunna 
+          shide 
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
