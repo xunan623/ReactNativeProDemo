@@ -27,6 +27,7 @@ export default class ReactNativeDemo extends Component {
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
+          change the text  for  show 
         </Text>
       </View>
     );
