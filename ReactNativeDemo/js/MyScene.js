@@ -7,7 +7,7 @@ import {
      Animated
 } from 'react-native';
 
-
+import FadeInView from './FadeInView'
 
 export default class MyScene extends Component {
   static defaultProps = {
@@ -31,8 +31,12 @@ export default class MyScene extends Component {
             <Text>Button</Text>
         </TouchableHighlight>
 
-
+        <FadeInView style={{width: 250, height: 50, backgroundColor: 'green'}} >
+          <Text style={{fontSize: 28, textAlign: 'center', margin: 10}}>Fading in</Text>
+        </FadeInView>
       </View>
+
+   
     )
   }
 }
