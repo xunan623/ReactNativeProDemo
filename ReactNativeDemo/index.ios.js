@@ -15,12 +15,14 @@ const pixelRatio = PixelRatio.get();
 
 import MyScene from './js/MyScene';
 import Login from './js/Login'
+import FlatListExample from  './js/FlatListExample'
 
+// <MyScene />
+// <Login />
 class ReactNativeDemo extends Component {
   render() {
     return (
-        // <MyScene />
-        <Login />
+        <FlatListExample />
     )
   }
 }

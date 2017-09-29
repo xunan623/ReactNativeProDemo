@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/ReactNativeDemo" libraries="{ReactNativeProDemo/ReactNativeDemo/node_modules}" />
+    <file url="file://$PROJECT_DIR$/ReactNativeDemo/js/FlatList.js" libraries="{WebGL}" />
+    <file url="PROJECT" libraries="{ReactNativeProDemo/ReactNativeDemo/node_modules, react-DefinitelyTyped, react-autosuggest-DefinitelyTyped, react-bootstrap-DefinitelyTyped, react-bootstrap-daterangepicker-DefinitelyTyped, react-bootstrap-table-DefinitelyTyped, react-calendar-timeline-DefinitelyTyped, react-cropper-DefinitelyTyped, react-datagrid-DefinitelyTyped, react-datepicker-DefinitelyTyped, react-dnd-DefinitelyTyped, react-dropzone-DefinitelyTyped, react-fa-DefinitelyTyped, react-native-DefinitelyTyped, react-native-doc-viewer-DefinitelyTyped, redux-bootstrap-DefinitelyTyped, redux-logger-DefinitelyTyped}" />
+  </component>
+</project>

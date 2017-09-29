@@ -11,6 +11,7 @@ import {
 let widthOfMargin = Dimensions.get('window').width * 0.05;
 
 export default class Login extends Component {
+
     render() {
         return (
             <View style={styles.container}>

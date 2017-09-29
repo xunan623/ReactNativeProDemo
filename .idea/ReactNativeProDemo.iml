@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-native-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="redux-logger-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-autosuggest-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="redux-bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-bootstrap-daterangepicker-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-bootstrap-table-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-calendar-timeline-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-cropper-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-datagrid-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-datepicker-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-dnd-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-dropzone-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-fa-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-native-doc-viewer-DefinitelyTyped" level="application" />
+  </component>
+</module>
