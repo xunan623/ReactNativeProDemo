@@ -13,17 +13,21 @@ const pixelRatio = PixelRatio.get();
 // 注意即便当前文件和MyScene.js在同一个目录中，"./"两个符号也是不能省略的！
 // 但是.js后缀是可以省略的
 
-import MyScene from './js/MyScene';
+// import MyScene from './js/MyScene';
 import Login from './js/Login'
-import FlatListExample from  './js/FlatListExample'
+// import FlatListExample from  './js/FlatListExample'
+// import KeyboardAvoidingViewDemo from  './js/KeyboardAvoidingViewDemo'
 
 // <MyScene />
 // <Login />
+// <FlatListExample/>
+// <KeyboardAvoidingViewDemo />
+
 class ReactNativeDemo extends Component {
   render() {
     return (
-        <FlatListExample />
-    )
+        <Login />
+    );
   }
 }
 
