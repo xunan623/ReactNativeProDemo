@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc29fe37-949c-469e-b5e5-f9dad2e8a189" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/ModalDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/PickerDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.bundle" afterPath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.bundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.map" afterPath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" afterPath="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,23 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReactNativeDemo/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -43,54 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyScene.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/MyScene.js">
+      <file leaf-file-name="ProgressViewIOSDemo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/setup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Image.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/Image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModalDemo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ModalDemo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="36" column="75" lean-forward="false" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+            <state relative-caret-position="535">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#15#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigatorIOSDemo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js">
+      <file leaf-file-name="RefreshControlDemo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="885">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +68,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PickerStyle</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -112,9 +81,12 @@
       <list>
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/Login.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/FlatList.js" />
-        <option value="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/ModalDemo.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/js/PickerDemo.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js" />
       </list>
     </option>
   </component>
@@ -135,10 +107,10 @@
     <handled-path value="$PROJECT_DIR$/ReactNativeDemo/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1452" />
-    <option name="y" value="-156" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="x" value="1440" />
+    <option name="y" value="-154" />
+    <option name="width" value="1876" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -201,7 +173,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -286,12 +258,12 @@
       <workItem from="1508317769562" duration="2683000" />
       <workItem from="1508320877317" duration="1932000" />
       <workItem from="1508375725571" duration="311000" />
-      <workItem from="1508376217644" duration="1222000" />
+      <workItem from="1508376217644" duration="16826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12003000" />
+    <option name="totallyTimeSpent" value="27607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/index.ios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ModalDemo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -684,11 +646,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js">
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/jsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/PickerDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1257,9 +1257,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _reactNative = require(45            ); // 45 = react-native
 
-var _ModalDemo = require(417             ); // 417 = ./js/ModalDemo
+var _PickerDemo = require(574              ); // 574 = ./js/PickerDemo
 
-var _ModalDemo2 = _interopRequireDefault(_ModalDemo);
+var _PickerDemo2 = _interopRequireDefault(_PickerDemo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1306,10 +1306,10 @@ var ReactNativeDemo = _wrapComponent('ReactNativeDemo')(function (_Component) {
   _createClass(ReactNativeDemo, [{
     key: 'render',
     value: function render() {
-      return _react3.default.createElement(_ModalDemo2.default, {
+      return _react3.default.createElement(_PickerDemo2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 37
         }
       });
     }
@@ -53344,9 +53344,7 @@ function throwOnWrongReactAPI(key) {
 
 module.exports = throwOnWrongReactAPI;
 }, 416, null, "throwOnWrongReactAPI");
-__d(/* ReactNativeDemo/js/ModalDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
-    value: true
-});
+__d(/* ReactNativeDemo/js/PickerDemo.js */function(global, require, module, exports) {'use strict';
 
 var _react2 = require(12     ); // 12 = react
 
@@ -53356,28 +53354,19 @@ var _index = require(418                                                 ); // 4
 
 var _index2 = _interopRequireDefault(_index);
 
-var _jsxFileName = '/Users/xunan/Documents/Demo/ReactNativeProDemo/ReactNativeDemo/js/ModalDemo.js';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _jsxFileName = '/Users/xunan/Documents/Demo/ReactNativeProDemo/ReactNativeDemo/js/PickerDemo.js';
 
 var _reactNative = require(45            ); // 45 = react-native
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 var _components = {
-    ModalDemo: {
-        displayName: 'ModalDemo'
-    }
+    _component: {},
+    _component2: {}
 };
 
 var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index2.default)({
-    filename: '/Users/xunan/Documents/Demo/ReactNativeProDemo/ReactNativeDemo/js/ModalDemo.js',
+    filename: '/Users/xunan/Documents/Demo/ReactNativeProDemo/ReactNativeDemo/js/PickerDemo.js',
     components: _components,
     locals: [module],
     imports: [_react3.default]
@@ -53389,129 +53378,216 @@ function _wrapComponent(id) {
     };
 }
 
-var ModalDemo = _wrapComponent('ModalDemo')(function (_Component) {
-    _inherits(ModalDemo, _Component);
+var PickerItemIOS = _reactNative.PickerIOS.Item;
 
-    function ModalDemo(props) {
-        _classCallCheck(this, ModalDemo);
-
-        var _this = _possibleConstructorReturn(this, (ModalDemo.__proto__ || Object.getPrototypeOf(ModalDemo)).call(this, props));
-
-        _this.state = {
-            modalVisible: false
-        };
-        return _this;
+var CAR_MAKES_AND_MODELS = {
+    amc: {
+        name: 'AMC',
+        models: ['AMX', 'Concord', 'Eagle', 'Gremlin', 'Matador', 'Pacer']
+    },
+    alfa: {
+        name: 'Alfa-Romeo',
+        models: ['159', '4C', 'Alfasud', 'Brera', 'GTV6', 'Giulia', 'MiTo', 'Spider']
+    },
+    aston: {
+        name: 'Aston Martin',
+        models: ['DB5', 'DB9', 'DBS', 'Rapide', 'Vanquish', 'Vantage']
+    },
+    audi: {
+        name: 'Audi',
+        models: ['90', '4000', '5000', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'Q5', 'Q7']
+    },
+    austin: {
+        name: 'Austin',
+        models: ['America', 'Maestro', 'Maxi', 'Mini', 'Montego', 'Princess']
+    },
+    borgward: {
+        name: 'Borgward',
+        models: ['Hansa', 'Isabella', 'P100']
+    },
+    buick: {
+        name: 'Buick',
+        models: ['Electra', 'LaCrosse', 'LeSabre', 'Park Avenue', 'Regal', 'Roadmaster', 'Skylark']
+    },
+    cadillac: {
+        name: 'Cadillac',
+        models: ['Catera', 'Cimarron', 'Eldorado', 'Fleetwood', 'Sedan de Ville']
+    },
+    chevrolet: {
+        name: 'Chevrolet',
+        models: ['Astro', 'Aveo', 'Bel Air', 'Captiva', 'Cavalier', 'Chevelle', 'Corvair', 'Corvette', 'Cruze', 'Nova', 'SS', 'Vega', 'Volt']
     }
+};
 
-    _createClass(ModalDemo, [{
-        key: 'setModalVisible',
-        value: function setModalVisible(visible) {
-            this.setState({
-                modalVisible: visible
-            });
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            var _this2 = this;
+var PickerDemo = _wrapComponent('_component')(_react3.default.createClass({
+    displayName: 'PickerDemo',
 
-            return _react3.default.createElement(
-                _reactNative.View,
-                { style: { marginTop: 22 }, __source: {
+    getInitialState: function getInitialState() {
+        return {
+            carMake: 'cadillac',
+            modelIndex: 3
+        };
+    },
+
+    render: function render() {
+        var _this = this;
+
+        var make = CAR_MAKES_AND_MODELS[this.state.carMake];
+        var selectionString = make.name + ' ' + make.models[this.state.modelIndex];
+        return _react3.default.createElement(
+            _reactNative.View,
+            {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 65
+                }
+            },
+            _react3.default.createElement(
+                _reactNative.Text,
+                {
+                    __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 26
+                        lineNumber: 66
                     }
                 },
-                _react3.default.createElement(
-                    _reactNative.Modal,
-                    {
-                        animationType: "slide",
-                        transparent: false,
-                        visible: this.state.modalVisible,
-                        onRequestClose: function onRequestClose() {
-                            alert("Modal has been closedl.");
-                        }, __source: {
+                'Please choose a make for your car:'
+            ),
+            _react3.default.createElement(
+                _reactNative.PickerIOS,
+                { selectedValue: this.state.carMake, onValueChange: function onValueChange(carMake) {
+                        return _this.setState({ carMake: carMake, modelIndex: 0 });
+                    }, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 67
+                    }
+                },
+                Object.keys(CAR_MAKES_AND_MODELS).map(function (carMake) {
+                    return _react3.default.createElement(PickerItemIOS, { key: carMake, value: carMake, label: CAR_MAKES_AND_MODELS[carMake].name, __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 27
+                            lineNumber: 70
                         }
-                    },
-                    _react3.default.createElement(
-                        _reactNative.View,
-                        { style: { marginTop: 22 }, __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 33
-                            }
-                        },
-                        _react3.default.createElement(
-                            _reactNative.View,
-                            {
-                                __source: {
-                                    fileName: _jsxFileName,
-                                    lineNumber: 34
-                                }
-                            },
-                            _react3.default.createElement(
-                                _reactNative.Text,
-                                {
-                                    __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 35
-                                    }
-                                },
-                                'Hello World!'
-                            ),
-                            _react3.default.createElement(
-                                _reactNative.TouchableHighlight,
-                                { onPress: function onPress() {
-                                        _this2.setModalVisible(!_this2.state.modalVisible);
-                                    }, __source: {
-                                        fileName: _jsxFileName,
-                                        lineNumber: 36
-                                    }
-                                },
-                                _react3.default.createElement(
-                                    _reactNative.Text,
-                                    {
-                                        __source: {
-                                            fileName: _jsxFileName,
-                                            lineNumber: 39
-                                        }
-                                    },
-                                    'Hide Modal'
-                                )
-                            )
-                        )
-                    )
-                ),
-                _react3.default.createElement(
-                    _reactNative.TouchableHighlight,
-                    { onPress: function onPress() {
-                            _this2.setModalVisible(true);
-                        }, __source: {
+                    });
+                })
+            ),
+            _react3.default.createElement(
+                _reactNative.Text,
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 74
+                    }
+                },
+                'Please choose a model of ',
+                make.name,
+                ':'
+            ),
+            _react3.default.createElement(
+                _reactNative.PickerIOS,
+                {
+                    selectedValue: this.state.modelIndex,
+                    key: this.state.carMake,
+                    onValueChange: function onValueChange(modelIndex) {
+                        return _this.setState({ modelIndex: modelIndex });
+                    }, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 75
+                    }
+                },
+                CAR_MAKES_AND_MODELS[this.state.carMake].models.map(function (modelName, modelIndex) {
+                    return _react3.default.createElement(_reactNative.PickerIOS, {
+                        key: _this.state.carMake + '_' + modelIndex,
+                        value: modelIndex,
+                        label: modelName,
+                        __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 45
+                            lineNumber: 81
                         }
-                    },
-                    _react3.default.createElement(
-                        _reactNative.Text,
-                        {
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 48
-                            }
-                        },
-                        'Show Modal'
-                    )
-                )
-            );
-        }
-    }]);
+                    });
+                })
+            ),
+            _react3.default.createElement(
+                _reactNative.Text,
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 89
+                    }
+                },
+                'You selected:',
+                selectionString
+            )
+        );
+    }
+}));
 
-    return ModalDemo;
-}(_react2.Component));
+var PickerStyleDemo = _wrapComponent('_component2')(_react3.default.createClass({
+    displayName: 'PickerStyleDemo',
 
-exports.default = ModalDemo;
-}, 417, null, "ReactNativeDemo/js/ModalDemo.js");
+    getInitialState: function getInitialState() {
+        return {
+            carMake: 'cadillac',
+            modelIndex: 0
+        };
+    },
+
+    render: function render() {
+        var _this2 = this;
+
+        var make = CAR_MAKES_AND_MODELS[this.state.carMake];
+        var selectionString = make.name + ' ' + make.models[this.state.modelIndex];
+        return _react3.default.createElement(
+            _reactNative.PickerIOS,
+            {
+                itemStyle: { fontSize: 25, color: 'red', textAlign: 'left', fontWeight: 'bold' },
+                selectedValue: this.state.carMake,
+                onValueChange: function onValueChange(carMake) {
+                    return _this2.setState({ carMake: carMake, modelIndex: 0 });
+                }, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 107
+                }
+            },
+            Object.keys(CAR_MAKES_AND_MODELS).map(function (carMake) {
+                return _react3.default.createElement(_reactNative.PickerIOS, {
+                    key: carMake,
+                    value: carMake,
+                    label: CAR_MAKES_AND_MODELS[carMake].name,
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 113
+                    }
+                });
+            })
+        );
+    }
+}));
+
+exports.displayName = "PickerDemo";
+exports.title = '<PickerIOS>';
+exports.description = 'Render lists of selectable options with UIPickerView.';
+
+exports.examples = [{
+    title: '<PickerIOS>',
+    render: function render() {
+        return _react3.default.createElement(PickerDemo, {
+            __source: {
+                fileName: _jsxFileName,
+                lineNumber: 133
+            }
+        });
+    }
+}, {
+    title: '<PickerIOS> with custom styling',
+    render: function render() {
+        return _react3.default.createElement(PickerStyleDemo, {
+            __source: {
+                fileName: _jsxFileName,
+                lineNumber: 139
+            }
+        });
+    }
+}];
+}, 574, null, "ReactNativeDemo/js/PickerDemo.js");
 ;require(146);
 ;require(0);
 //# sourceMappingURL=index.ios.map
