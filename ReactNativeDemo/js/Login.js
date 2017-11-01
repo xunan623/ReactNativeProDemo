@@ -12,12 +12,19 @@ let widthOfMargin = Dimensions.get('window').width * 0.05;
 
 export default class Login extends Component {
 
+    abc() {
+        this.setState({
+            aaa:a,
+        })
+
+    }
+
     render() {
         return (
             <View style={styles.container}>
                 <TextInput style={styles.TextInputStyle} placeholder={'请输入手机号码'} />
                 <Text style={styles.TextPromptStyle}> 您输入的手机号码:</Text>
-                <TextInput style={styles.TextInputStyle} placeholder={'请输入密码'} password={true} />
+                <TextInput onValueChange={()=>this.abc()} style={styles.TextInputStyle} placeholder={'请输入密码'} password={true} />
                 <Text style={styles.bigTextPrompt}> 确定</Text>
             </View>
         );

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc29fe37-949c-469e-b5e5-f9dad2e8a189" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/PickerDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/ScrollViewDemo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.bundle" afterPath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.bundle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.map" afterPath="$PROJECT_DIR$/.tmp/reactNativeBuild/index.ios.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" afterPath="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" afterPath="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +21,8 @@
       <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReactNativeDemo/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="435">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -35,14 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProgressViewIOSDemo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js">
+      <file leaf-file-name="ScrollViewDemo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ScrollViewDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,7 +43,7 @@
       <file leaf-file-name="RefreshControlDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
+            <state relative-caret-position="748">
               <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
@@ -85,8 +78,9 @@
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/NavigatorIOSDemo.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/PickerDemo.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js" />
-        <option value="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
         <option value="$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/index.ios.js" />
+        <option value="$PROJECT_DIR$/ReactNativeDemo/js/ScrollViewDemo.js" />
       </list>
     </option>
   </component>
@@ -258,12 +252,12 @@
       <workItem from="1508317769562" duration="2683000" />
       <workItem from="1508320877317" duration="1932000" />
       <workItem from="1508375725571" duration="311000" />
-      <workItem from="1508376217644" duration="16826000" />
+      <workItem from="1508376217644" duration="23661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27607000" />
+    <option name="totallyTimeSpent" value="34442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,14 +269,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-157" width="1920" height="1057" extended-state="6" />
+    <frame x="1440" y="-157" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17008953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14057508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14117648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -674,10 +668,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReactNativeDemo/index.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="435">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -686,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/RefreshControlDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
+        <state relative-caret-position="748">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
@@ -694,13 +698,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ProgressViewIOSDemo.js">
+    <entry file="file://$PROJECT_DIR$/ReactNativeDemo/js/ScrollViewDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
