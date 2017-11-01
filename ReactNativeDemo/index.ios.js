@@ -23,6 +23,7 @@ const pixelRatio = PixelRatio.get();
 // import RefreshControlDemo from './js/RefreshControlDemo';
 // import BoxAppDemo from './js/BoxAppDemo';
 import DongFang from './js/BoxDemo'
+import XieChengDemo from './js/DongFangDemo/XieChengDemo'
 
 // <MyScene />
 // <Login />
@@ -33,12 +34,16 @@ import DongFang from './js/BoxDemo'
 // <ModalDemo />
 // <NavigatorIOSDemo/>
 // <PickerDemo/>
+// <RefreshControlDemo/>
+// <DongFang />
+
+
 
 
 class ReactNativeDemo extends Component {
   render() {
     return (
-        <DongFang />
+        <XieChengDemo/>
     );
   }
 }
