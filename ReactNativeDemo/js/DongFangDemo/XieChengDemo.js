@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import {
     View,
     StyleSheet,
-    Text
+    Text,
+    PixelRatio
 } from 'react-native';
 
 export default class XieChengDemo extends Component {
@@ -15,8 +16,8 @@ export default class XieChengDemo extends Component {
                     <View style={[styles.item, styles.center]}>
                          <Text style={styles.font}>酒店</Text>
                     </View>
-                    <View style={styles.item}>
-                        <View style={[styles.flex, styles.center]}>
+                    <View style={[styles.item, styles.lineLeftRight]}>
+                        <View style={[styles.flex, styles.center, styles.lineCenter]}>
                             <Text style={styles.font}>海外酒店</Text>
                         </View>
                         <View style={[styles.flex, styles.center]}>
@@ -24,7 +25,7 @@ export default class XieChengDemo extends Component {
                         </View>
                     </View>
                     <View style={styles.item}>
-                        <View style={[styles.flex, styles.center]}>
+                        <View style={[styles.flex, styles.center, styles.lineCenter]}>
                             <Text style={styles.font}>团购</Text>
                         </View>
                         <View style={[styles.flex, styles.center]}>
@@ -51,8 +52,6 @@ const styles = StyleSheet.create({
     item: {
         flex:1,
         height:80,
-        borderWidth:1,
-        borderColor:'blue',
     },
     center: {
         justifyContent: "center",
@@ -66,4 +65,13 @@ const styles = StyleSheet.create({
         fontSize:16,
         fontWeight:'bold',
     },
+    lineLeftRight: {
+        borderLeftWidth:1/PixelRatio.get(),
+        borderRightWidth:1/PixelRatio.get(),
+        borderColor:'#FFF',
+    },
+    lineCenter: {
+        borderBottomWidth:1/PixelRatio.get(),
+        borderColor:'#FFF',
+    }
 });
